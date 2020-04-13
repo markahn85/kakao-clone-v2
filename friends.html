@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c584a60e73.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css"/>
     <title>Friends | Kakao Clone</title>
 </head>
 <body>
@@ -25,20 +26,20 @@
             <h1 class="header__title">Friends</h1>
         </div>
         <div class="header__header-column">
-            <span class="header__header-icon">
+            <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
-            <span class="header__header-icon">
+            <span class="header__icon">
                 
             </span>
-            <span class="header__header-icon">
+            <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
     </header>
     <main class="friends">
-        <header class="friends_header">
-            <div class="friends__friend friend friend--lg">
+        <header class="friends__header">
+            <div class="friends__friend friend">
                 <div class="friend__column">
                     <img src="images/avatar.jpg" class="g-avatar friend__avatar">
                     <div class="friend__content">
@@ -56,9 +57,9 @@
             <h5 class="friends__title">Plus friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <img src="images/avatar.jpg" class="friend__avatar">
                     <div class="friend__content">
-                        <span class="friend_name">
+                        <span class="friend__name">
                             Plus Friend
                         </span>
                     </div>
@@ -69,7 +70,7 @@
            <h5 class="friends__title">Friends 14</h5>
            <li class="friends__friend friend friend--lg">
               <div class="friend__column">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                <img src="images/avatar.jpg" class="friend__avatar">
                 <div class="friend__content">
                   <span class="friend__name">
                       Nicolas Serrano
@@ -81,8 +82,9 @@
               </div>
               <div class="friend__column">
                   <div class="friend__now-listening">
-                      <span>FTISLAND (FT NomadCoders)</span>
-                      <i class="fas fa-play"></i>
+                      <span>FTISLAND (FT NomadCoders)
+                        <i class="fas fa-play"></i>
+                      </span>
                   </div>
               </div>
             </li>
@@ -105,5 +107,8 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!!</span>
+    </div>    
 </body>
 </html>
